@@ -1,0 +1,137 @@
+body{
+  text-align: center;
+  background-color: #FCF7D2;
+  color: #FCF7D2;
+}
+
+#top {
+  text-align: left;
+  font-weight: bold;
+  position: fixed;
+  background-color: black;
+  left: 0;
+  width: 200px;
+  height: 100%;
+  z-index: 1;
+}
+#top a{
+  color: #fff;
+}
+
+#top ul{
+  padding: 0;
+}
+.nav{
+
+}
+.navbar-brand{
+  padding: 15px;
+  font-family: 'Varela Round', sans-serif;
+}
+.nav-link{
+    padding: 20px;
+    font-family: 'Roboto', sans-serif;
+}
+.navbar-brand img{
+  width: 50px;
+}
+.nav-item img{
+  width: 20px;
+  color: white;
+  padding-right: 3px;
+}
+
+#top-picks{
+  margin: auto 0 auto 0;
+}
+
+#mid-bottom{
+  position: relative;
+  background-image: url("icons/bg.jpg");
+  background-attachment: fixed;
+  background-size: 100%;
+}
+
+#mid{
+  position: relative;
+  margin-left: 200px;
+  background-image: url("icons/bg.jpg");
+  background-size: contain;
+  background-attachment: fixed;
+  text-align: left;
+
+  padding: 50px 0 150px 0;
+}
+.top-picks{
+  background-color: black;
+  top: 0;
+  padding: 75px 100px 0 0;
+  position: fixed;
+  font-size: 2.5rem;
+}
+
+.songlist{
+  padding-top: 70px;
+}
+.songitem{
+  padding: 20px;
+  border-radius: 20px;
+}
+.songitem img{
+  width: 40px;
+}
+
+
+.songitem span{
+  padding: 10px;
+}
+
+#bottom{
+  position: fixed;
+  padding: 30px 50px;
+  background-color: black;
+  bottom: 0;
+  width: 100%;
+  z-index: 2;
+}
+#bottom .icons{
+  color: white;
+  padding: 7.5px 10px;
+}
+
+#bottom img{
+  margin-left: 150px;
+  width: 45px;
+  margin: 0 15px 0 0;
+}
+
+#bottom .cover{
+  border-radius: 100%;
+  animation-play-state: running;
+}
+
+
+.musicinfo{
+  position: absolute;
+  left: 15px;
+  top: 20px;
+}
+.gif{
+  opacity : 0;
+  transition:opacity 1s;
+}
+.mastercontrol{
+  background-color: black;
+}
+#progressbar{
+  width: 70%;
+  background-color: green;
+}
+.progress{
+
+}
+
+/*To control play*/
+.gifplaying{
+  opacity: 1;
+}
